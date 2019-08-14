@@ -1,9 +1,11 @@
 # dbArticlesCrawler
-crawler db articles from intelnet base on crawler4j
+crawler db articles from internet base on crawler4j
 
 
 # 实现步骤
 通过site.xml文件中配置的网址以及元素标签位置爬取CSDN、ITPUB等等互联网上数据库相关的文章，然后批量入库
+
+在resource下的有示例，通过列表页面获取文章的标题、链接、摘要
 
 # create table
 ```sql
