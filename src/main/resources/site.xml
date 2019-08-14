@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<crawl>
+    <seed origin="Eygle">
+        <seedUrl>https://www.eygle.com/index-recent.htm</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://www.eygle.com/archives</startUrl>
+        <css1>li.colheader</css1>
+        <css2>a</css2>
+        <css3>a</css3>
+        <css4>p</css4>
+    </seed>
+    <seed origin="ORAWEN">
+        <seedUrl>http://www.orasql.com/blog/</seedUrl>
+        <baseUrl>http://www.orasql.com/blog/</baseUrl>
+        <startUrl>http://www.orasql.com/blog/archives</startUrl>
+        <css1>div.textbox</css1>
+        <css2>h4</css2>
+        <css3>h4 > a</css3>
+        <css4>div.textbox-content</css4>
+    </seed>
+    <seed origin="ENMOBlog">
+        <seedUrl>https://blog.enmotech.com/</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://blog.enmotech.com/</startUrl>
+        <css1>div.blog-sm-area</css1>
+        <css2>h3</css2>
+        <css3>h3 > a</css3>
+        <css4>div.media-body > p</css4>
+    </seed>
+    <seed origin="CNBlogs">
+        <seedUrl>https://www.cnblogs.com/cate/108712</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://www.cnblogs.com/*/archive</startUrl>
+        <css1>div.post_item_body</css1>
+        <css2>h3</css2>
+        <css3>h3 a</css3>
+        <css4>p.post_item_summary</css4>
+    </seed>
+    <seed origin="CSDN">
+        <seedUrl>https://blog.csdn.net/nav/db</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://blog.csdn.net/*/article/details</startUrl>
+        <css1>li.clearfix</css1>
+        <css2>h2</css2>
+        <css3>h2 a</css3>
+        <css4>div.summary</css4>
+    </seed>
+    <seed origin="yangtingkun">
+        <seedUrl>http://yangtingkun.net/?m=2018</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>http://yangtingkun.net/?p*</startUrl>
+        <css1>div.post</css1>
+        <css2>h2.entry-title</css2>
+        <css3>h2.entry-title > a</css3>
+        <css4>div.entry-summary > p</css4>
+    </seed>
+    <seed origin="XiaoHe">
+        <seedUrl>https://oracleblog.org/</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://oracleblog.org/</startUrl>
+        <css1>article.entry</css1>
+        <css2>h2.entry-title > a</css2>
+        <css3>h2.entry-title > a</css3>
+        <css4>div.entry-content > p</css4>
+    </seed>
+    <seed origin="ITPUB">
+        <seedUrl>http://blog.itpub.net/database/</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>http://blog.itpub.net/*/viewspace*</startUrl>
+        <css1>li.list-item</css1>
+        <css2>li.list-item > a</css2>
+        <css3>li.list-item > a</css3>
+        <css4>p.info</css4>
+    </seed>
+    <seed origin="51CTO">
+        <seedUrl>http://blog.51cto.com/original/34</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>http://blog.51cto.com/</startUrl>
+        <css1>ul.artical-list > li</css1>
+        <css2>a.tit</css2>
+        <css3>a.tit</css3>
+        <css4>div.con</css4>
+    </seed>
+    <seed origin="OracleBlog">
+        <seedUrl>https://blogs.oracle.com/database4cn</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://blogs.oracle.com/database4cn</startUrl>
+        <css1>div.cw36w5,div.cw36w4</css1>
+        <css2>h4</css2>
+        <css3>h4 a</css3>
+        <css4>p.cw36v5-featurepreview,p.preview</css4>
+    </seed>
+    <seed origin="OSCHINA">
+        <seedUrl>https://www.oschina.net/blog?classification=428610</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>https://my.oschina.net/*/blog</startUrl>
+        <css1>div.blog-item > div.content</css1>
+        <css2>a.header</css2>
+        <css3>a.header</css3>
+        <css4>p.line-clamp</css4>
+    </seed>
+    <seed origin="ITeye">
+        <seedUrl>http://www.iteye.com/blogs/category/database</seedUrl>
+        <baseUrl></baseUrl>
+        <startUrl>http://*.iteye.com/blog</startUrl>
+        <css1>div#index_main > div.blog</css1>
+        <css2>h3</css2>
+        <css3>h3 a</css3>
+        <css4>h3 + div</css4>
+    </seed>
+</crawl>
